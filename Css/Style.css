@@ -82,7 +82,7 @@ nav ul li{
     max-width: 85%;
     margin: 50px 150px 25px 150px;
     padding: 1rem 2rem;
-    gap: 15px;
+    gap: 50px;
     
 }
 
@@ -94,9 +94,57 @@ nav ul li{
     
 }
 
+.sectionInfo:hover{
+    background-color: #04B2D9;
+}
+
+.sectionDivInfo:hover{
+    background-color: #04B2D9;
+}
+
+.sectionFormulario:hover{
+    background-color: #04B2D9;
+} 
+
+.alimentacionInfo:hover{
+    background-color: #04B2D9;
+}
+
+.videoAli:hover{
+    background-color: #04B2D9
+}
+
+p:hover{
+    font-weight: bold;
+    color: white;
+}
+
+li:hover{
+        font-weight: bold;
+        color: white;
+}
+
+table:hover{
+    background-color: #04B2D9;
+    font-weight: bold;
+    color: white;
+
+}
+
 .mainGif{
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 250px;
+    animation: move-image 3s linear infinite;
+}
+
+@keyframes move-image {
+    0%{
+        transform: translateY(15px);
+    }50%{
+        transform: translateY(0px);
+    }100%{
+        transform: translateY(15px);
+    }
 }
 
 /* estilos parrafo section del main */
