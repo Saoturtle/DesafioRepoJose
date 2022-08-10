@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;700&family=Inter:wght@300;400&family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* estilos menu de navegacion linkeado */
+a{
+    text-decoration: none;
+    color: black;
+    box-shadow: inset 0 0 0 0 cornflowerblue;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* estilos menu de navegacion linkeado con hover*/
+a:hover{
+    box-shadow: inset 800px 0 0 0 cornflowerblue;
+    color: white;
+}
+
+/* estilos body */
+body{
+    background-color: #F7F5F2;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+}
+
+/* estilos header */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    /* background-color: #CDF0EA; */
+    background-color: #C1F8CF;
+    /* padding: 25px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    position: sticky;
+    top: 0px;
+}
+
+/* estilos logo */
+.imgLogo{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+/* estilos menu de navegacion */
+nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+/* estilos h1 */
+.hunoDiv{
+    margin-top: 35px;
+    font-size: 30px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+/* estilos main */
+.main{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    max-width: 85%;
+    margin: 50px 150px 25px 150px;
+    padding: 1rem 2rem;
+    gap: 15px;
+    
+}
+
+/* estilos section del main */
+.sectionInfo{
+    padding: 15px;
+    background-color: #B8FFF9;
+    border-radius: 10px;
+    
+}
+
+.mainGif{
+    width: 500px;
+    height: 500px;
+}
+
+/* estilos parrafo section del main */
+main section p{
+    margin-bottom: 10px;
+}
+
+/* estilos h2 */
+.hdosDiv{
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+/* estilos div voluntarios */
+.divInfo{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    max-width: 85%;
+    margin: 50px 150px 25px 150px;
+    gap: 50px;
+}
+
+/* estilos section voluntarios */
+.sectionDivInfo{
+    width: 650px;
+    padding: 1rem 2rem;
+    background-color: #B8FFF9;
+    border-radius: 10px;
+}
+
+/* estilos h2 section voluntarios */
+.sectionDivInfo h2{
+    margin-bottom: 10px;
+}
+
+/* estilos lista section voluntarios */
+.sectionDivInfo ul li{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 7.5px;
+    list-style-type: circle;
+}
+
+/* estilos div formulario */
+.divFormulario{
+    display: flex;
+    /* align-items: center; */
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    max-width: 85%;
+    margin: 50px 150px 25px 150px;
+    gap: 15px;
+}
+
+/* estilos section formulario */
+.sectionFormulario{
+    width: 650px;
+    height: 265px;
+    padding: 1rem 2rem;
+    background-color: #B8FFF9;
+    border-radius: 10px;
+}
+
+/* estilos label formulario
+.labelFormulario{
+    padding: 20px;
+} */
+
+legend{
+    font-size: 20px;
+}
+
+/* estilos inputs del formulario */
+.inputFormulario{
+    border: none;
+    padding: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* estilos fieldset del formulario */
+.fieldsetFormulario{
+    border: 3px solid white;
+    padding: 10px;
+}
+
+/* estilos textarea formulario */
+.textareaFormulario{
+    text-align: center;
+    border: none;
+}
+
+/* estilos botones del formulario*/
+.botonFormulario{
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* estilos botones del formulario con hover */
+.botonFormulario:hover{
+    box-shadow: inset 250px 0 0 0 cornflowerblue;
+    color: white;
+}
+
+
+/* estilos footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    background-color: #C1F8CF;
+}
+
+/* estilos volver al comienzo */
+.footer a{
+    margin-top: 10px;
+}
+
+/* estilos todos los derechos reservados */
+.footer h3{
+    margin-top: 10px;
+}
+
+.imgTurtle{
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.mainAli{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    max-width: 85%;
+    margin: 15px 150px 25px 150px;
+    padding: 1rem 2rem;
+    gap: 15px;
+}
+
+.alimentacionInfo{
+    padding: 15px;
+    background-color: #B8FFF9;
+    border-radius: 10px;
+}
+
+.footerAli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    background-color: #C1F8CF;
+}
+
+.footerAli a{
+    margin-top: 10px;
+}
+
+.footerAli h3{
+    margin-top: 10px;
+}
+
+.alimentacionInfo ul li{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 7.5px;
+    list-style-type: none;
+}
+
+table{
+    /* width: 100%; */
+    border-spacing: 5px;
+    font-size: 18px;
+    background-color: #B8FFF9;
+  }
+
+  th{
+    text-align: center;
+  }
+  
+  table, th, td {
+    border: 3px solid white;
+  }
+  
+  th, td {
+    padding: 5px;
+  }
+
+.videoAli{
+    background-color: #B8FFF9;
+    border-radius: 10px;
+    width: 650px;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
